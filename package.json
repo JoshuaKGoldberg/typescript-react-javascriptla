@@ -1,0 +1,24 @@
+{
+  "author": "Josh Goldberg <me@joshuakgoldberg.com>",
+  "contributors": [
+    "Josh Goldberg <me@joshuakgoldberg.com>",
+    "Sylvana Santos <sylvana@codecademy.com>"
+  ],
+  "description": "Demo code for our Intro to TypeScript + React talk! ✨",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "keywords": [
+    "demo",
+    "intro",
+    "typescript",
+    "react"
+  ],
+  "license": "MIT",
+  "name": "typescript-react-javascriptla",
+  "scripts": {
+    "compile": "tsc",
+    "watch": "tsc --watch"
+  },
+  "version": "0.1.0"
+}
