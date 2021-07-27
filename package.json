@@ -45,10 +45,9 @@
   "scripts": {
     "build": "react-scripts build",
     "compile": "tsc",
-    "eject": "react-scripts eject",
+    "compile:strict": "tsc --strict",
     "start": "react-scripts start",
-    "test": "react-scripts test",
-    "watch": "tsc --watch"
+    "test": "react-scripts test"
   },
   "version": "0.1.0"
 }

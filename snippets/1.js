@@ -3,7 +3,7 @@
 function greetPerson(first, last) {
     console.log("Hello,\u00A0" + first + "\u00A0" + last + "!");
 }
-// ...and we forgot to update some code to provide two parameters!
+// ...and we forgot to update some code to provide two parameters! 😱
 // Error: Expected 2 arguments, but got 1.
 // An argument for 'last' was not provided.
 greetPerson("Sylvana Santos");

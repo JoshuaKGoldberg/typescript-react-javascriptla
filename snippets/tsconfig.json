@@ -1,4 +1,9 @@
-/* Visit https://aka.ms/tsconfig.json to read more about this file */
+// A 'tsconfig.json' file specifies TypeScript settings for its folder.
+// Visit https://aka.ms/tsconfig.json to read more about them.
+//
+// This folder is just for little example snippets referenced by the presentation.
+// We override the big list of compiler settings set by the parent tsconfig.json
+// since we don't need all that extra stuff for just these snippets.
 {
   // These are the settings TypeScript uses to compile TypeScript code to JavaScript:
   "compilerOptions": {
@@ -8,9 +13,6 @@
     // We consider 'null' and 'undefined' to not be assignable to other types
     // Without this one, this would be fine: 'let name: string = undefined;'
     // Weird, right? You should basically always want this setting ;)
-    "strictNullChecks": true,
-
-    // other flags are document {online ref} (spew below)
-    
+    "strictNullChecks": true
   }
 }

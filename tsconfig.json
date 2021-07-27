@@ -1,26 +1,36 @@
+// A 'tsconfig.json' file specifies TypeScript settings for its folder.
+// Visit https://aka.ms/tsconfig.json to read more about them.
+//
+// You don't need to understand this file to learn TypeScript!
+// Particularly important ones are documented here for fun.
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    // This specifies what built-in global varaibles are available:
+    // * "dom" says we're in a browser so things like HTML elements exist
+    // * "esnext" says we can use all the latest fancy JavaScript features ✨
+    "lib": ["dom", "esnext"],
+
+    // We use the nice import & export syntax (ES modules), not AMD or CommonJS.
+    "module": "esnext",
+
+    // Note that this file doesn't enable stricter checks such as noImplicitAny or strictNullChecks.
+    // They're very useful but create-react-app uses this file to figure out compilation settings.
+    // We don't want to block rendering the page on forgetting to fix a type declaration.
+    // Instead, 'npm compile:strict' uses --strict, which enables those checks.
+
+    // ...the rest of these you can read about online if you really want 😉
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
     "jsx": "react-jsx",
-    "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
-    "isolatedModules": true
+    "target": "es5"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
