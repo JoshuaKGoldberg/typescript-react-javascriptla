@@ -3,11 +3,14 @@
   // These are the settings TypeScript uses to compile TypeScript code to JavaScript:
   "compilerOptions": {
     // The JSX factory is React (rather than any other library)
-    "jsx": "react",
+    "jsx": "react-jsx",
 
     // We consider 'null' and 'undefined' to not be assignable to other types
     // Without this one, this would be fine: 'let name: string = undefined;'
     // Weird, right? You should basically always want this setting ;)
-    "strictNullChecks": true
+    "strictNullChecks": true,
+
+    // other flags are document {online ref} (spew below)
+    
   }
 }
