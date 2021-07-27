@@ -1,0 +1,33 @@
+.container {
+    background-color: white;
+    color: black;
+    padding: 1rem 1rem 0;
+    width: 330px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0 1rem;
+}
+
+h3 {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tag {
+    align-self: flex-end;
+    display: inline-block;
+    background-color: cornflowerblue;
+    margin-top: 2rem;
+    font-size: small;
+    margin-right: -1rem;
+    padding: 0.25rem;
+}
