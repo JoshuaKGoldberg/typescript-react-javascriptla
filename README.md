@@ -3,6 +3,8 @@
 Hi!
 This is the companion code repository for the JavaScriptLA Intro to TypeScript & React talk.
 
+[See the slides here!](https://1drv.ms/p/s!AvUc1cvPrJnWvtFxzk3bplj1lQcWsg?e=lhHUJQ)
+
 ## Setup
 
 Run these somewhere on your computer to download this repository and install its requirements:
